@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>mlinreallife.github.io/about/</loc>
+    <loc>https://mlinreallife.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>mlinreallife.github.io/categories/</loc>
+    <loc>https://mlinreallife.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>mlinreallife.github.io/</loc>
+    <loc>https://mlinreallife.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>mlinreallife.github.io/tags/</loc>
+    <loc>https://mlinreallife.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
