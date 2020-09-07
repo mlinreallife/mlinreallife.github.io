@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Do data scientists act crazy?</title>
+      <link>https://mlinreallife.github.io/posts/data-scientists-crazy/</link>
+      <pubDate>Fri, 28 Aug 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data-scientists-crazy/</guid>
+      <description>I used to be a web developer. The first time, I saw code from a data scientist, I was choked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
+Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist.</description>
+    </item>
     
     <item>
       <title>Is meritocracy possible? Is meritocracy acceptable? Answers from the book &#39;The rise of the meritocracy&#39;</title>
