@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2020 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Doing web without JavaScript, HTML nor CSS for data science</title>
+      <link>https://mlinreallife.github.io/posts/streamlit/</link>
+      <pubDate>Mon, 07 Sep 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/streamlit/</guid>
+      <description>I&amp;rsquo;ve recently played with a tool named Streamlit. I wanted to share this experience with you.
+If you want to build a simple web page to expose your models using only Python, this library is for you.
+Streamlit was launched the first of october in 2019. You can get more information in the launch blog post.
+Here is the traditional hello world:
+import streamlit as st st.write(&amp;#34;Hello world!&amp;#34;) With that, you get that:</description>
+    </item>
     
     <item>
       <title>Do data scientists act crazy?</title>
