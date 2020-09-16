@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mlinreallife.github.io/posts/data-scientists-crazy/</loc>
-    <lastmod>2020-08-28T06:11:10+02:00</lastmod>
+    <loc>https://mlinreallife.github.io/posts/data-versioning/</loc>
+    <lastmod>2020-09-15T06:11:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/</loc>
-    <lastmod>2020-08-28T06:11:10+02:00</lastmod>
+    <lastmod>2020-09-15T06:11:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/posts/</loc>
+    <lastmod>2020-09-15T06:11:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mlinreallife.github.io/posts/data-scientists-crazy/</loc>
     <lastmod>2020-08-28T06:11:10+02:00</lastmod>
   </url>
   
@@ -29,10 +34,6 @@
   
   <url>
     <loc>https://mlinreallife.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mlinreallife.github.io/posts/data-versioning/</loc>
   </url>
   
   <url>

@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2020 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Different ways to do data versioning</title>
+      <link>https://mlinreallife.github.io/posts/data-versioning/</link>
+      <pubDate>Tue, 15 Sep 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data-versioning/</guid>
+      <description>I have experienced two ways of doing data versioning and would like to share it with you.
+It was always in a batch context to do supervised or unsupervised learning.
+What is data versioning? Data versioning is about keeping snapshots of the state of your data. This way, you can see the state of the data at certain periods of time.
+Why doing data versioning? There are many benefits:
+  Rollbacks and replays on a specific date.</description>
+    </item>
     
     <item>
       <title>Do data scientists act crazy?</title>
@@ -31,19 +44,6 @@ Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist.<
 This is not the first time I see the word meritocracy used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
 But what is meritocracy? Is it something desirable?
 Back to the origin Where does this word come from ?</description>
-    </item>
-    
-    <item>
-      <title>Different ways to do data versioning</title>
-      <link>https://mlinreallife.github.io/posts/data-versioning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlinreallife.github.io/posts/data-versioning/</guid>
-      <description>I have experienced two ways of doing data versioning and would like to share it with you.
-It was always in a batch context to do supervised or unsupervised learning.
-What is data versioning? Data versioning is about keeping snapshots of the state of your data. This way, you can see the state of the data at certain periods of time.
-Why doing data versioning? There are many benefits:
-  Rollbacks and replays on a specific date.</description>
     </item>
     
   </channel>
