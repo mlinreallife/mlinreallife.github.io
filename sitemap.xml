@@ -33,6 +33,16 @@
   </url>
   
   <url>
+    <loc>https://mlinreallife.github.io/posts/mlleap/</loc>
+    <lastmod>2020-05-27T17:01:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mlinreallife.github.io/posts/spark-tests/</loc>
+    <lastmod>2019-07-30T17:01:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mlinreallife.github.io/about/</loc>
     <priority>0</priority>
   </url>

@@ -60,6 +60,26 @@ Back to the origin Where does this word come from ?</description>
     </item>
     
     <item>
+      <title>Getting started with MLeap and Scikit-Learn</title>
+      <link>https://mlinreallife.github.io/posts/mlleap/</link>
+      <pubDate>Wed, 27 May 2020 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/mlleap/</guid>
+      <description>Deploying machine learning data pipelines and algorithms should not be a time-consuming or difficult task. MLeap allows data scientists and engineers to deploy machine learning pipelines from Spark and Scikit-learn to a portable format and execution engine (MLeap documentation).
+ MLeap helps you to serialize and deserialize your model/pipeline. It exists for Spark, Scikit-Learn and Tensorflow. You can use it with Scikit-Learn but the documentation is quite dry for the moment.</description>
+    </item>
+    
+    <item>
+      <title>How do I test with Apache Spark?</title>
+      <link>https://mlinreallife.github.io/posts/spark-tests/</link>
+      <pubDate>Tue, 30 Jul 2019 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/spark-tests/</guid>
+      <description>If you are wondering how you can test with Apache Spark. Or if you are curious about how other projects deal with tests, this article is for you. I will show examples in Scala with Specs2 but the global idea can work with any language or framework test.
+What do we need to test with Apache Spark? This is the first problem. Suppose that we have data about diamonds sales. We want to extract only one field (the diamond color) from all the information.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://mlinreallife.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
