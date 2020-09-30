@@ -54,7 +54,7 @@ Why doing data versioning? There are many benefits:
       <pubDate>Fri, 28 Aug 2020 06:11:10 +0200</pubDate>
       
       <guid>https://mlinreallife.github.io/posts/data-scientists-crazy/</guid>
-      <description>I used to be a web developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
+      <description>I used to be a web back-end developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
 Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist.</description>
     </item>
     
