@@ -6,10 +6,20 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 19:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2020 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Failure is not what you think it is</title>
+      <link>https://mlinreallife.github.io/posts/failure/</link>
+      <pubDate>Mon, 26 Oct 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/failure/</guid>
+      <description>In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I&amp;rsquo;ve changed my mind.
+Before, I was very afraid of failures. I hated them. As a consequence, I did my best to avoid them. I realised that failures might be more valuable than I thought at the beginning.</description>
+    </item>
     
     <item>
       <title>DataOps and MLOps: what is the difference between these two concepts?</title>

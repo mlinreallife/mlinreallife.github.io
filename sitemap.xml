@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mlinreallife.github.io/posts/mlops_vs_dataops/</loc>
-    <lastmod>2020-10-22T19:01:10+02:00</lastmod>
+    <loc>https://mlinreallife.github.io/posts/failure/</loc>
+    <lastmod>2020-10-26T07:01:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/</loc>
-    <lastmod>2020-10-22T19:01:10+02:00</lastmod>
+    <lastmod>2020-10-26T07:01:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/posts/</loc>
+    <lastmod>2020-10-26T07:01:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mlinreallife.github.io/posts/mlops_vs_dataops/</loc>
     <lastmod>2020-10-22T19:01:10+02:00</lastmod>
   </url>
   
