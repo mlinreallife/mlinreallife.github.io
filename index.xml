@@ -6,10 +6,20 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 22 Oct 2020 19:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2020 18:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Failure is not what you think it is</title>
+      <link>https://mlinreallife.github.io/posts/failure/</link>
+      <pubDate>Mon, 26 Oct 2020 18:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/failure/</guid>
+      <description>In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I&amp;rsquo;ve changed my mind.
+Before, I was very afraid of failures. I hated them. As a consequence, I did my best to avoid them. I realised that failures might be more valuable than I thought at the beginning.</description>
+    </item>
     
     <item>
       <title>DataOps and MLOps: what is the difference between these two concepts?</title>
@@ -31,16 +41,6 @@ DataOps  DataOps is an automated, process-oriented methodology, used by analytic
       <description>Pomodoro might be an overrated technique. And yet, I can&amp;rsquo;t help thinking it might be a good idea to talk about that. I would like to share my point of view and the way I work with this method. Let&amp;rsquo;s go.
 What is Pomodoro? Pomodoro is a technique that helps you to stay focus. The steps are:
  Set a timer of 25 minutes. Work until the bell rings. Take a short break (3 to 5 minutes) Repeat  After 4 iterations, take a longer break (15 to 30 minutes).</description>
-    </item>
-    
-    <item>
-      <title>Failure is not what you think it is</title>
-      <link>https://mlinreallife.github.io/posts/failure/</link>
-      <pubDate>Tue, 13 Oct 2020 18:01:10 +0200</pubDate>
-      
-      <guid>https://mlinreallife.github.io/posts/failure/</guid>
-      <description>In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I&amp;rsquo;ve changed my mind.
-Before, I was very afraid of failures. I hated them. As a consequence, I did my best to avoid them. I realised that failures might be more valuable than I thought at the beginning.</description>
     </item>
     
     <item>
