@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 02 Nov 2020 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2020 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The art of being right in your job</title>
+      <link>https://mlinreallife.github.io/posts/the_art_of_being_right/</link>
+      <pubDate>Mon, 09 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/the_art_of_being_right/</guid>
+      <description>Have you ever struggled to explain why automated tests are important (or why refactoring should be a natural step when developing, or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance?
+I&amp;rsquo;m sure you already have experienced that and will maybe face other situations like that in the future.
+How can we find new arguments to help ourselves or at least have fun in these hard discussions?</description>
+    </item>
     
     <item>
       <title>How to win friends and influence people: a disappointing reading</title>
