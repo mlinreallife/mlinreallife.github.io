@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 09 Nov 2020 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2020 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Press review 1: Data versioning, tips for Pytest, freelancing, etc</title>
+      <link>https://mlinreallife.github.io/posts/press_review_1/</link>
+      <pubDate>Thu, 12 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_1/</guid>
+      <description>Machine learning in real life is hard. Finding your way into all the methods and tools is not easy. Here you will find some resources that inspired me recently to do data versioning, tests or data drift detection.
+English resources Comparing Data Version Control Tools - 2020 A great comparison between all the tools you can use to do data versioning.
+ Managing data versions is a necessary step for data science teams to avoid output inconsistencies.</description>
+    </item>
     
     <item>
       <title>The art of being right in your job</title>
