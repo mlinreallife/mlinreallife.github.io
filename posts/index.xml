@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 23 Nov 2020 08:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unit tests for data</title>
+      <link>https://mlinreallife.github.io/posts/resources/unit_tests_for_data/</link>
+      <pubDate>Tue, 24 Nov 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/resources/unit_tests_for_data/</guid>
+      <description>Unit tests for data? Strange concept maybe. This is why I really wanted to make a video to quickly present you that.
+  I realise there are many things to improve in this first video. I&amp;rsquo;ll improve that over the time.
+Thank you for reading. Feel free to contact me on Twitter if you want to discuss that.</description>
+    </item>
     
     <item>
       <title>Alibi-detect for data drift detection</title>

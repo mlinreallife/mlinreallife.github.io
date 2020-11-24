@@ -3,23 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mlinreallife.github.io/posts/alibi-detect/</loc>
-    <lastmod>2020-11-05T17:11:48+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mlinreallife.github.io/</loc>
-    <lastmod>2020-11-12T08:23:25+01:00</lastmod>
+    <lastmod>2020-11-24T08:41:12+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/posts/</loc>
-    <lastmod>2020-11-12T08:23:25+01:00</lastmod>
+    <lastmod>2020-11-24T08:41:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mlinreallife.github.io/posts/resources/unit_tests_for_data/</loc>
+    <lastmod>2020-11-24T06:11:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mlinreallife.github.io/posts/alibi-detect/</loc>
+    <lastmod>2020-11-24T08:41:12+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://mlinreallife.github.io/posts/drift/</loc>
-    <lastmod>2020-11-05T17:11:48+01:00</lastmod>
+    <lastmod>2020-11-24T08:41:12+01:00</lastmod>
   </url>
   
   <url>
