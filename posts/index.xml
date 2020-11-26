@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 24 Nov 2020 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Press review 2: Unit tests for data, Data &#43; AI summit, etc</title>
+      <link>https://mlinreallife.github.io/posts/press_review_2/</link>
+      <pubDate>Thu, 26 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_2/</guid>
+      <description>Machine learning in real life is hard. Finding your way into all the methods and tools is not easy. Here you will find some resources that inspired me recently to do unit tests for data and productionalize models.
+Automating Large-Scale Data Quality Verification It&amp;rsquo;s the paper behind Deequ, a library to do unit tests for data. It&amp;rsquo;s very instructive. You will see how the tool was thought. I didn&amp;rsquo;t know that it was possible to profile your data to help you decide the tests you want to launch.</description>
+    </item>
     
     <item>
       <title>Unit tests for data</title>
