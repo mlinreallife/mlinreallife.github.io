@@ -6,10 +6,20 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 07 Dec 2020 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon</title>
+      <link>https://mlinreallife.github.io/posts/press_review_3/</link>
+      <pubDate>Thu, 10 Dec 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_3/</guid>
+      <description>This week, I think I&amp;rsquo;ve finally understood what a feature store is (thanks to Tecton). There is also some other news: better integration of the orchestrator Airflow in Amazon, distributed XGboost with Spark, a chatbot from Google which is better than before but still weird.
+Introducing Amazon Managed Workflows for Apache Airflow (MWAA) I&amp;rsquo;m a big fan of Apache Airflow which is a great tool to orchestrate your tasks. Then, I&amp;rsquo;m glad to hear about</description>
+    </item>
     
     <item>
       <title>The hidden face of sexism</title>
