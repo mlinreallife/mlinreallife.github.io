@@ -17,8 +17,7 @@
       <pubDate>Thu, 10 Dec 2020 07:01:10 +0200</pubDate>
       
       <guid>https://mlinreallife.github.io/posts/press_review_3/</guid>
-      <description>This week, I think I&amp;rsquo;ve finally understood what a feature store is (thanks to Tecton). There is also some other news: better integration of the orchestrator Airflow in Amazon, distributed XGboost with Spark, a chatbot from Google which is better than before but still weird.
-Introducing Amazon Managed Workflows for Apache Airflow (MWAA) I&amp;rsquo;m a big fan of Apache Airflow which is a great tool to orchestrate your tasks. Then, I&amp;rsquo;m glad to hear about</description>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           This week, I think I&amp;rsquo;ve finally understood what a feature store is (thanks to Tecton).</description>
     </item>
     
     <item>
@@ -49,8 +48,7 @@ Oops. I was livid.</description>
       <pubDate>Thu, 26 Nov 2020 07:01:10 +0200</pubDate>
       
       <guid>https://mlinreallife.github.io/posts/press_review_2/</guid>
-      <description>Machine learning in real life is hard. Finding your way into all the methods and tools is not easy. Here you will find some resources that inspired me recently to do unit tests for data and productionalize models.
-Automating Large-Scale Data Quality Verification It&amp;rsquo;s the paper behind Deequ, a library to do unit tests for data. It&amp;rsquo;s very instructive. You will see how the tool was thought. I didn&amp;rsquo;t know that it was possible to profile your data to help you decide the tests you want to launch.</description>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Machine learning in real life is hard.</description>
     </item>
     
     <item>
@@ -92,9 +90,7 @@ With Covid-19, the lockdowns, the recession, the curfews, everything has changed
       <pubDate>Thu, 12 Nov 2020 07:01:10 +0200</pubDate>
       
       <guid>https://mlinreallife.github.io/posts/press_review_1/</guid>
-      <description>Machine learning in real life is hard. Finding your way into all the methods and tools is not easy. Here you will find some resources that me recently to do data versioning, tests or data drift detection.
-English resources Comparing Data Version Control Tools - 2020 A great comparison between all the tools you can use to do data versioning.
- Managing data versions is a necessary step for data science teams to avoid output inconsistencies.</description>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Machine learning in real life is hard.</description>
     </item>
     
     <item>
