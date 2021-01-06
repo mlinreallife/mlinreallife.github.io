@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 23 Dec 2020 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A banal machine learning system where interpretability and explainability matter</title>
+      <link>https://mlinreallife.github.io/posts/interpretability/</link>
+      <pubDate>Wed, 06 Jan 2021 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/interpretability/</guid>
+      <description>As algorithmic systems become more prevalent, the need to understand them grows (Interpretability report from Cloudera).
+ Interpretability and explainability are used for ethics purposes.
+It can serve other interests: medical diagnosis, safety decisions, etc. It can also be used for any kind of ordinary applications.
+I would like to tell you a story. Once upon a time, there was a banal machine learning system. For this one, interpretability and explainability mattered.</description>
+    </item>
     
     <item>
       <title>Issue 4: Resources to get an overview of a machine learning project</title>
