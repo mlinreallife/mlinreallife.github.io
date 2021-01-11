@@ -6,10 +6,21 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 06 Jan 2021 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2021 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comparison of different tools to do unit tests</title>
+      <link>https://mlinreallife.github.io/posts/unit_tests_data_comparison/</link>
+      <pubDate>Fri, 08 Jan 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/unit_tests_data_comparison/</guid>
+      <description>TL;DR:
+Recently, I benchmarked different tools to do unit tests for data. Here are the results.
+    Pydeequ Drunken Data Quality Dataframes rule engine Great Expectations Apache Griffin     Language Python Python Scala Python Json, outside of code   Compatible Spark 3 No No Not tested Yes X   Compatible Databricks Unknown error. Pydeequ never tested in Databricks Not tested Not tested Yes Not tested.</description>
+    </item>
     
     <item>
       <title>Issue 5: Resources to get started with Kubernetes</title>
