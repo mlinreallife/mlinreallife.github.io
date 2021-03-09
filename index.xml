@@ -6,10 +6,22 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 01 Mar 2021 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 06:11:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Different ways to tackle the data labelling bottleneck in machine learning</title>
+      <link>https://mlinreallife.github.io/posts/data_labelling/</link>
+      <pubDate>Tue, 09 Mar 2021 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data_labelling/</guid>
+      <description>Data are the food of machine learning training. There are more and more data everyday. But most of the time, these data are unlabelled. Labelling them manually is expensive and boring.
+There are different ways to tackle this problem.
+Active learning Active learning optimises labelling. It extracts the data that must be labelled.
+The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies.</description>
+    </item>
     
     <item>
       <title>Issue 9: Code standardization, container orchestration, lakehouse, cats: concepts needed to productionalize machine learning models</title>

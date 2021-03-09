@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.74.3" />
+
+    
+    
+    
+
+<title>Different ways to tackle the data labelling bottleneck in machine learning • Machine learning in real life</title>
+<meta name="google-site-verification" content="TCP3Xybh5xzOfqotpAWEcZvWXDkTewIEh8oUbcnpT3U" />
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+<meta name="keywords" content="nastasia saby, nastasia, saby, engineer, data, deep learning, shallow learning, learning, machine, tests, unit, people, analytics, book, career, concepts, data science, machine learning, pomodoro, issue, failure, data drift, model drift, drift, mlops, dataops, devops, sexism, unit tests, improve, mistakes">
+<meta name="application-name" content="Different ways to tackle the data labelling bottleneck in machine learning | Machine learning in real life" />
+<meta property="og:site_name" content="" />
+<meta itemprop="name" content="Different ways to tackle the data labelling bottleneck in machine learning | Machine learning in real life" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mlinreallife.github.io/Logo3.png"/>
+
+<meta name="twitter:title" content="Different ways to tackle the data labelling bottleneck in machine learning"/>
+<meta name="twitter:description" content="Data are the food of machine learning training. There are more and more data everyday. But most of the time, these data are unlabelled. Labelling them manually is expensive and boring.
+There are different ways to tackle this problem.
+Active learning Active learning optimises labelling. It extracts the data that must be labelled.
+The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies."/>
+<meta name="twitter:site" content="@saby_nastasia"/>
+
+<meta property="og:title" content="Different ways to tackle the data labelling bottleneck in machine learning" />
+<meta property="og:description" content="Data are the food of machine learning training. There are more and more data everyday. But most of the time, these data are unlabelled. Labelling them manually is expensive and boring.
+There are different ways to tackle this problem.
+Active learning Active learning optimises labelling. It extracts the data that must be labelled.
+The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mlinreallife.github.io/posts/data_labelling/" />
+<meta property="og:image" content="https://mlinreallife.github.io/Logo3.png"/>
+<meta property="article:published_time" content="2021-03-09T06:11:10+02:00" />
+<meta property="article:modified_time" content="2020-12-23T09:12:41+01:00" />
+
+<base href="https://mlinreallife.github.io/posts/data_labelling/">
+<link rel="canonical" href="https://mlinreallife.github.io/posts/data_labelling/" itemprop="url" />
+<meta name="url" content="https://mlinreallife.github.io/posts/data_labelling/" />
+<meta name="twitter:url" content="https://mlinreallife.github.io/posts/data_labelling/" />
+<meta property="og:url" content="https://mlinreallife.github.io/posts/data_labelling/" />
+<meta property="og:locale" content="en">
+<meta name="language" content="English">
+
+
+<meta itemprop="image" content="https://mlinreallife.github.io" />
+<meta property="og:image" content="https://mlinreallife.github.io" />
+
+<meta property="og:updated_time" content=2020-12-23T09:12:41&#43;0100 />
+Sitemap & RSS Feed Tags
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://mlinreallife.github.iositemap.xml" />
+
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="https://mlinreallife.github.io/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
+
+
+<link rel="stylesheet" href="https://mlinreallife.github.io/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="https://mlinreallife.github.io/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="https://mlinreallife.github.io/favicon.ico">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <h1 class="site__title">
+        <a href="https://mlinreallife.github.io">Machine learning in real life</a>
+      </h1>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/f1e09bf0b41e5559ff4623401378a1f8?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <h3 class="site__description">
+         Nastasia Saby 
+      </h3>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Machine learning in real life</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/newsletter/">
+						<span>Newsletter</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/nastasia_saby/">
+						<span>About Me Nastasia Saby</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/@saby_nastasia" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Different ways to tackle the data labelling bottleneck in machine learning</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Mar 09, 2021
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Data are the food of machine learning training. There are more and more data everyday. But most of the time, these data are unlabelled. Labelling them manually is expensive and boring.</p>
+<p>There are different ways to tackle this problem.</p>
+<h2 id="active-learning">Active learning</h2>
+<p>Active learning optimises labelling. It extracts the data that must be labelled.</p>
+<p>The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies.</p>
+<h3 id="uncertainty-sampling">Uncertainty sampling</h3>
+<p>When using a model, you get more or less certain results. The idea is to identify and label manually the least certain ones.</p>
+<p>Uncertainty sampling example — original drawing</p>
+<h2 id="semi-supervised-learning">Semi-supervised learning</h2>
+<p>This method looks for the most certain examples too. It uses them as labelled data.</p>
+<p>Semi-supervised learning example — original drawing</p>
+<p>Links to go further:</p>
+<ul>
+<li>Active Learning: Curious AI Algorithms</li>
+<li>Introduction to Active Learning</li>
+</ul>
+<h2 id="reinforcement-learning">Reinforcement learning</h2>
+<p>In reinforcement learning, you learn from experiences.</p>
+<p>You have a target. An agent tries to reach it by performing actions. Its successes and failures train your model in the right direction.</p>
+<p>One day, someone told me:</p>
+<blockquote>
+<p>Reinforcement learning is a supervised learning with data. It just gets these data over the time.
+You can use reinforcement learning when interracting with an environment and limited data.</p>
+</blockquote>
+<p>A tutorial to get started with reinforcement learning:</p>
+<ul>
+<li>Q-learning simple</li>
+</ul>
+<h2 id="data-augmentation">Data augmentation</h2>
+<p>From a same data, you can extract several others.</p>
+<p>You can take a cat picture. You flip, crop, scale or rotate it. From one labelled picture, you now have four new labelled pictures.</p>
+<p>Youtou</p>
+<p>From one image, we can generate three others — original photo</p>
+<p>A reading about data augmentation:</p>
+<ul>
+<li>Data Augmentation | How to use Deep Learning when you have Limited Data — Part 2</li>
+</ul>
+<p>A small library for image augmentation:</p>
+<ul>
+<li>Codebox Software</li>
+</ul>
+<h2 id="unsupervised-learning">Unsupervised learning</h2>
+<p>Labelling is a supervised learning problem. To tackle it, you can use unsupervised learning instead. This possibility depends on the problem you have.</p>
+<p>Suppose you want to extract anomalies from an ensemble. A supervised learning could label some examples. Then, it trains the model.</p>
+<p>Instead, you could cluster similar things together. Groups very different from the others could be anomalies.</p>
+<p>It is a simple example. However, it is possible to imagine more complex solutions.</p>
+<p>Examples of clustering with K-Means and K-Medoids:
+Clusterings in machine learning — K-Means and K-Medoids examples</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Labelling in machine learning is an issue. It is expensive and leads to boring tasks.</p>
+<p>You can keep the costs of labelling down with automatic solutions. I wanted to highlight some methods to do that.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="https://mlinreallife.github.io/posts/press_review_9/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Issue 9: Code standardization, container orchestration, lakehouse, cats: concepts needed to productionalize machine learning models</span>
+    </a>
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>
