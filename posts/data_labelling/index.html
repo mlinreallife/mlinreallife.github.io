@@ -28,7 +28,7 @@
 <meta property="og:site_name" content="" />
 <meta itemprop="name" content="Different ways to tackle the data labelling bottleneck in machine learning | Machine learning in real life" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://mlinreallife.github.io/Logo3.png"/>
+<meta name="twitter:image" content="https://mlinreallife.github.io/data_augmentation.jpeg"/>
 
 <meta name="twitter:title" content="Different ways to tackle the data labelling bottleneck in machine learning"/>
 <meta name="twitter:description" content="Data are the food of machine learning training. There are more and more data everyday. But most of the time, these data are unlabelled. Labelling them manually is expensive and boring.
@@ -44,7 +44,7 @@ Active learning Active learning optimises labelling. It extracts the data that m
 The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mlinreallife.github.io/posts/data_labelling/" />
-<meta property="og:image" content="https://mlinreallife.github.io/Logo3.png"/>
+<meta property="og:image" content="https://mlinreallife.github.io/data_augmentation.jpeg" />
 <meta property="article:published_time" content="2021-03-09T06:11:10+02:00" />
 <meta property="article:modified_time" content="2020-12-23T09:12:41+01:00" />
 
@@ -210,14 +210,14 @@ Sitemap & RSS Feed Tags
 <p>The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies.</p>
 <h3 id="uncertainty-sampling">Uncertainty sampling</h3>
 <p>When using a model, you get more or less certain results. The idea is to identify and label manually the least certain ones.</p>
-<p>Uncertainty sampling example — original drawing</p>
+<p><img src="https://mlinreallife.github.io/active_learning.png" alt="Active learning"></p>
 <h2 id="semi-supervised-learning">Semi-supervised learning</h2>
 <p>This method looks for the most certain examples too. It uses them as labelled data.</p>
-<p>Semi-supervised learning example — original drawing</p>
+<p><img src="https://mlinreallife.github.io/semi-supervised-learning.png" alt="semi-supervised-learning"></p>
 <p>Links to go further:</p>
 <ul>
-<li>Active Learning: Curious AI Algorithms</li>
-<li>Introduction to Active Learning</li>
+<li><a href="https://www.datacamp.com/community/tutorials/active-learning">Active Learning: Curious AI Algorithms</a></li>
+<li><a href="https://www.kdnuggets.com/2018/10/introduction-active-learning.html">Introduction to Active Learning</a></li>
 </ul>
 <h2 id="reinforcement-learning">Reinforcement learning</h2>
 <p>In reinforcement learning, you learn from experiences.</p>
@@ -229,20 +229,19 @@ You can use reinforcement learning when interracting with an environment and lim
 </blockquote>
 <p>A tutorial to get started with reinforcement learning:</p>
 <ul>
-<li>Q-learning simple</li>
+<li><a href="https://github.com/valohai/qlearning-simple">Q-learning simple</a></li>
 </ul>
 <h2 id="data-augmentation">Data augmentation</h2>
 <p>From a same data, you can extract several others.</p>
 <p>You can take a cat picture. You flip, crop, scale or rotate it. From one labelled picture, you now have four new labelled pictures.</p>
-<p>Youtou</p>
-<p>From one image, we can generate three others — original photo</p>
+<p><img src="https://mlinreallife.github.io/data_augmentation.jpeg" alt="Beautiful cat"></p>
 <p>A reading about data augmentation:</p>
 <ul>
-<li>Data Augmentation | How to use Deep Learning when you have Limited Data — Part 2</li>
+<li><a href="https://medium.com/@pierre_guillou/data-augmentation-par-fastai-v1-e2e69e071ccc">Data Augmentation | How to use Deep Learning when you have Limited Data — Part 2</a></li>
 </ul>
 <p>A small library for image augmentation:</p>
 <ul>
-<li>Codebox Software</li>
+<li><a href="https://codebox.net/pages/image-augmentation-with-python">Codebox Software</a></li>
 </ul>
 <h2 id="unsupervised-learning">Unsupervised learning</h2>
 <p>Labelling is a supervised learning problem. To tackle it, you can use unsupervised learning instead. This possibility depends on the problem you have.</p>
