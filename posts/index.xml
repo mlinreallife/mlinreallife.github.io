@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 09 Mar 2021 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Mar 2021 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Issue 10: Challenges in Deploying Machine Learning</title>
+      <link>https://mlinreallife.github.io/posts/press_review_10/</link>
+      <pubDate>Mon, 15 Mar 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_10/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           I&amp;rsquo;m glad to see that we can find more and more papers about deploying Machine Learning.</description>
+    </item>
     
     <item>
       <title>Different ways to tackle the data labelling bottleneck in machine learning</title>
@@ -30,6 +39,17 @@ The system requests a manual labelling for identified cases. Those depend on the
       
       <guid>https://mlinreallife.github.io/posts/press_review_9/</guid>
       <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Code standardisation with Pylint, container orchestration with Kubernetes, lakehouse with DeltaLake, working with cats ❤️, these are many concepts that can be useful to productionalize machine learning.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Design Patterns</title>
+      <link>https://mlinreallife.github.io/posts/ml-design-patterns/</link>
+      <pubDate>Tue, 23 Feb 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/ml-design-patterns/</guid>
+      <description>A design pattern is a way to answer to a well known problem. Giving a name to the problem and the solution helps to handle it.
+There are common challenges in machine learning:
+ data quality: data accuracy, data completeness, data consistency, timeliness reproducibility: you can add seed. Problem of the repeatability with distributed training data drift scale multiple objectives: different stakeholders, different teams  Data Representation Design Patterns Data representation = feature engineering</description>
     </item>
     
     <item>
