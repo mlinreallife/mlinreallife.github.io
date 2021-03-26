@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 15 Mar 2021 07:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Issue 11: Machine Learning Design Patterns</title>
+      <link>https://mlinreallife.github.io/posts/press_review_11/</link>
+      <pubDate>Thu, 25 Mar 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_11/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Machine Learning Design Patterns In this newsletter, I would like to focus on a book: Machine Learning Design Patterns.</description>
+    </item>
     
     <item>
       <title>Issue 10: Challenges in Deploying Machine Learning</title>
