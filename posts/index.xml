@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 05 May 2021 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 08 May 2021 07:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Issue 13: Kubernetes and DevOps concepts</title>
+      <link>https://mlinreallife.github.io/posts/press_review_13/</link>
+      <pubDate>Sat, 08 May 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_13/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Kubernetes is a tool.</description>
+    </item>
     
     <item>
       <title>Kubernetes - Be sure of being ready for real zero downtime deployment</title>
