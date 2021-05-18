@@ -17,7 +17,7 @@
       <pubDate>Tue, 18 May 2021 06:11:10 +0200</pubDate>
       
       <guid>https://mlinreallife.github.io/posts/bayesian-ab-tests/</guid>
-      <description>I&amp;rsquo;m working on Bayesian AB Tests for a show case project.
+      <description>I&amp;rsquo;m working on Bayesian AB Tests for a showcase project.
 Then I decided to do a quick memo on some principles regarding Bayesian AB Tests
 Principles of Bayesian AB Tests Steps:
  You have beliefs (a priori). You do an experiment to test these beliefs. You get a result (a posteriori). You combine both to revise your first beliefs.  Example: you want to change the background colour of your website: from blue to green.</description>
