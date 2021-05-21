@@ -6,10 +6,20 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 May 2021 06:11:10 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 08:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contributing to open source is not what I thought it was</title>
+      <link>https://mlinreallife.github.io/posts/open_source/</link>
+      <pubDate>Fri, 21 May 2021 08:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/open_source/</guid>
+      <description>When I was younger at the beginning of my career, I was fascinating by the idea of open source projects. I thought that contribution was unreachable for me. I still think it is difficult to open a pull request that modifies the code of a complex project like Apache Spark. But I have also realised that open source is not only about modifying code.
+What can you do to contribute to open source?</description>
+    </item>
     
     <item>
       <title>Overview of Bayesian AB Tests</title>
@@ -82,6 +92,15 @@ The explanation Let&amp;rsquo;s suppose that you have one replica. The process i
 There are different ways to tackle this problem.
 Active learning Active learning optimises labelling. It extracts the data that must be labelled.
 The system requests a manual labelling for identified cases. Those depend on the strategy you choose. I will cover only two of these strategies.</description>
+    </item>
+    
+    <item>
+      <title>Issue 14: Market yourself, ACID transactions in DeltaLake, OpenSource and Bayesian ABTests</title>
+      <link>https://mlinreallife.github.io/posts/press_review_14/</link>
+      <pubDate>Mon, 01 Mar 2021 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_14/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Market yourself, ACID transactions in DeltaLake, OpenSource and Bayesian ABTests.</description>
     </item>
     
     <item>
