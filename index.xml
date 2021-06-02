@@ -6,10 +6,21 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 21 May 2021 09:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jun 2021 18:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Designing data intensive applications (reading)</title>
+      <link>https://mlinreallife.github.io/posts/designing_data_intensive_application/</link>
+      <pubDate>Tue, 01 Jun 2021 18:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/designing_data_intensive_application/</guid>
+      <description>I&amp;rsquo;ve just finished a book about designing data intensive applications. This week, the focus will be only on this book.
+TL;DR
+It&amp;rsquo;s good to know the concepts behind the tools you use everyday. This is what this book is about regarding databases. I must also confess that I was a bit disappointed because the focus is not about data science but more about dealing with data in more common applications. The book is very good in my opinion.</description>
+    </item>
     
     <item>
       <title>Issue 14: Market yourself, ACID transactions in DeltaLake, OpenSource and Bayesian ABTests</title>
