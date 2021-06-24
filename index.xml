@@ -6,10 +6,21 @@
     <description>Recent content on Machine learning in real life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 01 Jun 2021 18:01:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jun 2021 06:01:10 +0200</lastBuildDate>
     
 	<atom:link href="https://mlinreallife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Issue 16: A story of distributions</title>
+      <link>https://mlinreallife.github.io/posts/a_story_of_distributions/</link>
+      <pubDate>Thu, 24 Jun 2021 06:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/a_story_of_distributions/</guid>
+      <description>In this issue, I will talk about different distributions and their use.
+TL;DR
+ Binomial distribution presents the number of successes for different random experiments. Beta distribution presents the probability of an event. The result is bounded between 0 and 1. Poisson distribution is helpful when you want to model events that occur during a period of time. Gamma distribution is used to model continuous probability distributions.  Binomial distribution Discrete or continuous values Discrete</description>
+    </item>
     
     <item>
       <title>Designing data intensive applications (reading)</title>
